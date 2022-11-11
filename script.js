@@ -1,3 +1,4 @@
+/*
 var btn = document.querySelector('.logo')
 var container = document.querySelector('.container')
 var link = document.querySelector('.link')
@@ -12,5 +13,5 @@ btn.addEventListener('click', function() {
   
     
 })
-
+*/
 
