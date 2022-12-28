@@ -1,4 +1,7 @@
 body{
+    width: 100%;
+    max-width: 100vw;
+    height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -10,9 +13,9 @@ body{
     animation: colors 10s ease infinite;
 }
 .logo{
-    overflow:auto;
+    width: 100%;
+    height: 100%;
     display:flex;
-    position:relative;
     margin-top: 50%;
     animation: scroll2 4s both;
     }
@@ -30,14 +33,12 @@ body{
 .container{
     width: 100%;
     height: 100%;
-    margin-top: 50px;
-    transform: translateY(-100%);
     display: flex;
+    padding: 0;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     color: #FFF;
-    visibility:visible;
     -webkit-transform: perspective(1px) translateZ(0);
     transform: perspective(1px) translateZ(0);
     box-shadow: 0 0 1px transparent;
@@ -46,6 +47,8 @@ body{
     opacity: 0;
     animation: revelar 5s both;
 }
+
+
 
 @keyframes revelar{
     from{
@@ -71,6 +74,8 @@ body{
 }
 .chart{
     display: flex;
+    width: 100%;
+    height: 100%;
     flex-direction: column;
 }
 .chartJs{
@@ -89,6 +94,7 @@ body{
 .paragrafo{
     padding-top: 50px;
     color: #FFF;
+    margin-bottom: 130px;
 }
 
 .js{
@@ -170,7 +176,7 @@ body{
         width: 0;
     }
     to{
-         width: 450px;
+         width: 300px;
     }
 }
 @keyframes reveal2{
@@ -178,7 +184,7 @@ body{
         width: 0;
     }
     to{
-         width: 500px;
+         width: 450px;
     }
 }
 @keyframes reveal3{
@@ -209,9 +215,17 @@ body{
     --cor-principal: rgb(59, 200, 255);
     --cor-secundaria: rgb(255, 255, 255);
 }
+footer {
+    position: fixed;
+    bottom:0;
+    color: #FFF;
+}
+
 
 nav {
     display: flex;
+    height: 100%;
+    width: 100%;
     justify-content: center;
     
 }
@@ -244,16 +258,6 @@ nav ul li a:hover {
     color: var(--cor-principal);
 }
 
-footer {
-    color: white;
-    text-align: center;
-    position: absolute;
-    width: 100%;
-    bottom: 0;
-    left: 0;
-   
-
-}
 .paragrafo {
     display: inline-block;
     vertical-align: middle;
@@ -288,13 +292,6 @@ footer {
     margin: 0px;
     padding: 0px;
 }
-
-
-
-
-
-
-
 
 .circles{
     position: absolute;
@@ -410,4 +407,3 @@ footer {
     }
 
 }
-
