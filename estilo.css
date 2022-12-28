@@ -94,6 +94,12 @@ body{
     color: #FFF;
     margin-bottom: 130px;
 }
+@media (max-width: 600px) {
+    footer{
+        position: inherit;
+    }
+    
+}
 
 .js{
     width: 0px;
@@ -215,7 +221,7 @@ body{
 }
 footer {
     flex-shrink: 0;
-    position: inherit;
+    position:fixed;
     bottom:0;
     color: #FFF;
 }
