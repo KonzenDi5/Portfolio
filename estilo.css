@@ -318,6 +318,7 @@ nav ul li a:hover {
     width: 80px;
     height: 80px;
     animation-delay: 0s;
+    bottom: -150px;
 }
 
 
@@ -327,6 +328,7 @@ nav ul li a:hover {
     height: 20px;
     animation-delay: 2s;
     animation-duration: 12s;
+    bottom: -150px;
 }
 
 .circles li:nth-child(3){
@@ -334,6 +336,7 @@ nav ul li a:hover {
     width: 20px;
     height: 20px;
     animation-delay: 4s;
+    bottom: -150px;
 }
 
 .circles li:nth-child(4){
@@ -342,13 +345,14 @@ nav ul li a:hover {
     height: 60px;
     animation-delay: 0s;
     animation-duration: 18s;
+    bottom: -150px;
 }
 
 .circles li:nth-child(5){
     left: 65%;
     width: 20px;
     height: 20px;
-    animation-delay: 0s;
+    bottom: -150px;
 }
 
 .circles li:nth-child(6){
@@ -356,6 +360,7 @@ nav ul li a:hover {
     width: 110px;
     height: 110px;
     animation-delay: 3s;
+    bottom: -150px;
 }
 
 .circles li:nth-child(7){
@@ -363,6 +368,7 @@ nav ul li a:hover {
     width: 150px;
     height: 150px;
     animation-delay: 7s;
+    bottom: -150px;
 }
 
 .circles li:nth-child(8){
@@ -371,6 +377,7 @@ nav ul li a:hover {
     height: 25px;
     animation-delay: 15s;
     animation-duration: 45s;
+    bottom: -150px;
 }
 
 .circles li:nth-child(9){
@@ -379,6 +386,7 @@ nav ul li a:hover {
     height: 15px;
     animation-delay: 2s;
     animation-duration: 35s;
+    bottom: -150px;
 }
 
 .circles li:nth-child(10){
@@ -387,6 +395,7 @@ nav ul li a:hover {
     height: 150px;
     animation-delay: 0s;
     animation-duration: 11s;
+    bottom: -150px;
 }
 
 
