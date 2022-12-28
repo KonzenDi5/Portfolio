@@ -309,7 +309,7 @@ nav ul li a:hover {
     height: 20px;
     background: rgba(255, 255, 255, 0.2);
     animation: animate 25s linear infinite;
-    bottom: 0px;
+    bottom: -300px;
     
 }
 
