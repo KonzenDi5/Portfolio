@@ -74,8 +74,6 @@ body{
 }
 .chart{
     display: flex;
-    height: 100%;
-    width: 100%;
     flex-direction: column;
 }
 .chartJs{
@@ -176,7 +174,7 @@ body{
         width: 0;
     }
     to{
-         width: 300px;
+         width: 200px;
     }
 }
 @keyframes reveal2{
@@ -184,7 +182,7 @@ body{
         width: 0;
     }
     to{
-         width: 450px;
+         width: 300px;
     }
 }
 @keyframes reveal3{
@@ -192,7 +190,7 @@ body{
         width: 0;
     }
     to{
-         width: 250px;
+         width: 150px;
     }
 }
 
