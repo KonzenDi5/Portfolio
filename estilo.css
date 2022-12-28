@@ -73,20 +73,27 @@ body{
     margin-right: 30px;
 }
 .chart{
+    width: 100%;
+    height: 100%;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .chartJs{
     display: flex;
     flex-direction: row;
+    margin-bottom: 15px;
 }
 .chartCSs{
     display: flex;
     flex-direction: row;
+    margin-bottom: 10px;
 }
 .chartHtml{
     display: flex;
     flex-direction: row;
+    margin-bottom: 5px;
 }
 
 .paragrafo{
@@ -100,7 +107,7 @@ body{
     width: 0px;
     height: 30px;
     overflow: hidden;
-    background:linear-gradient(to right, #00eeff, rgb(0, 153, 255));
+    background: transparent;
     border: solid 1px  rgb(255, 255, 255);
     display: flex;
     justify-content: center;
@@ -113,7 +120,43 @@ body{
     box-shadow: 0 0 1px transparent;
     -webkit-transition-duration: 0.5s;
     transition-duration: 0.5s;
-    
+}
+.logoJs{
+    margin-right: 14px;
+    margin-bottom: 4px;
+}
+.jswriter{
+        white-space: nowrap;
+        overflow: hidden;
+        margin-right: 15px;
+        animation: typewriter 2s steps(13) ,
+          blink 800ms steps(13) infinite normal;
+        
+}
+.csswriter{
+    white-space: nowrap;
+    overflow: hidden;
+    margin-right: 15px;
+    animation: typewriter 2s steps(13) ,
+      blink 800ms steps(13) infinite normal;
+}
+.htmlwriter{
+    white-space: nowrap;
+    overflow: hidden;
+    margin-right: 15px;
+    animation: typewriter 2s steps(13) ,
+      blink 800ms steps(13) infinite normal;
+}
+@keyframes typewriter {
+    from {
+      width: 0%;
+    }
+    to{
+        width: 50%;
+    }
+    end {
+      width: 100%;
+    }
 }
 .js:hover{
     -webkit-transform: scale(1.2);
@@ -121,11 +164,13 @@ body{
     -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
     transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
   }
+
+  
 .css{
     width: 0px;
     height: 30px;
     overflow: hidden;
-    background:linear-gradient(to right, #00eeff, rgb(0, 153, 255));
+    background: transparent;
     border: solid 1px  rgb(255, 255, 255);
     display: flex;
     justify-content: center;
@@ -149,7 +194,7 @@ body{
     width: 0px;
     height: 30px;
     overflow: hidden;
-    background:linear-gradient(to right, #00eeff, rgb(0, 153, 255));
+    background: transparent;
     border: solid 1px  rgb(255, 255, 255);
     display: flex;
     justify-content: center;
