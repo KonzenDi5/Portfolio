@@ -94,12 +94,7 @@ body{
     color: #FFF;
     margin-bottom: 130px;
 }
-@media (max-width: 400px) {
-    footer{
-        position: inherit;
-    }
     
-}
 
 .js{
     width: 0px;
@@ -277,6 +272,9 @@ nav ul li a:hover {
     .paragrafo{
         width: 350px;
         height: 600px;
+    }
+    footer{
+        position: inherit;
     }
   }
   .paragrafo:hover{
