@@ -215,6 +215,7 @@ body{
     --cor-secundaria: rgb(255, 255, 255);
 }
 footer {
+    flex-shrink: 0;
     position: fixed;
     bottom:0;
     color: #FFF;
