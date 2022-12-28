@@ -215,7 +215,7 @@ body{
 }
 footer {
     flex-shrink: 0;
-    position: fixed;
+    position: inherit;
     bottom:0;
     color: #FFF;
 }
