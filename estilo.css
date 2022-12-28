@@ -293,8 +293,10 @@ nav ul li a:hover {
 }
 
 .circles{
-    display: flex;
-    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1900px;
     height: 100%;
     overflow: hidden;
 }
