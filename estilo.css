@@ -39,7 +39,7 @@ body{
         margin-top: 50%;
    }
     to{
-        margin-top: 0%;
+        margin-top:0%;
    }
 }
 @keyframes revelar{
@@ -57,8 +57,8 @@ body{
     flex-direction: column;
 }
 .eu{
-    display: flex;
     overflow: hidden;
+    display: flex;
     align-items: center;
     justify-content: center;
     height: 0;
@@ -166,12 +166,18 @@ body{
     height: 500px;
 }
 @media (max-height: 700px) {
+    body {
+        overflow-x: hidden;
+        margin: 10px;
+        height: 100%;
+    }
     .midlle{
         max-height: 200px;
         margin-top: 50px;
     }
     footer{
         margin-bottom: 0;
+        position: inherit;
     }
     .skills{
         max-height: 200px;
@@ -179,8 +185,8 @@ body{
     }
 }
 @media (max-width: 500px) {
-    html{
-        overflow: scroll;
+    body {
+        overflow-x: hidden;
     }
     .midlle{
        flex-direction: column;
