@@ -190,10 +190,9 @@ body{
 @media (max-width: 500px) {
     body {
         overflow-x: hidden;
+        overflow-y: hidden;
     }
-    .container{
-        overflow: hidden;
-    }
+    
     .eu{
         margin-left: 46px;
     }
