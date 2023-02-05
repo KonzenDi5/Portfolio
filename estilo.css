@@ -217,6 +217,7 @@ body{
         margin-left: 155px;
     }
     .footer{
+        position: absolute;
         width: 100%;
         justify-content: center;
         align-items: center;
