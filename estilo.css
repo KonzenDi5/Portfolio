@@ -180,7 +180,7 @@ body{
     }
     footer{
         margin-bottom: 0;
-        position: inherit;
+        position: absolute;
     }
     .skills{
         max-height: 200px;
@@ -190,6 +190,9 @@ body{
 @media (max-width: 500px) {
     body {
         overflow-x: hidden;
+    }
+    .container{
+        overflow: hidden;
     }
     .eu{
         margin-left: 46px;
