@@ -191,6 +191,11 @@ body{
     body {
         overflow-x: hidden;
     }
+    .eu{
+        max-width: 150px;
+        max-height: 300px;
+        margin-left: 20px;
+    }
     .midlle{
        flex-direction: column;
        margin-top: 50px;
