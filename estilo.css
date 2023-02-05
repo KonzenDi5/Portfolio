@@ -28,7 +28,6 @@ body{
     transition-duration: 0.5s;
     opacity: 0;
     animation: revelar 3s both;
-    overflow: auto
     
 }
 .logo{
