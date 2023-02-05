@@ -1,7 +1,7 @@
 html{
     height: 100%;
     width: 100%;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 body{
     display: flex;
@@ -50,25 +50,23 @@ body{
         opacity: 1;
    }
 }
-.showmore{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-}
+    
 .eu{
     overflow: hidden;
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 0;
     max-width: 300px;
     max-height: 600px;
     flex-direction: column;
-    transition: 1s;
+    height: 0;
+    transition: 1s ease;
+    background-color: #5701015e;
+    border-radius: 50px;
+    padding-left: 10px;
+    margin-left: 38%;
 }
 .sobre {
-    display: block;
     color: #ffffff;
     justify-content: center;
     width: 9em;
@@ -88,6 +86,10 @@ body{
     padding: 0;
     font-size: inherit;
     font-family: inherit;
+}
+
+.foto{
+    height: 150px;
 }
 .sobre:hover {
     animation: animation 8s linear infinite;
@@ -117,7 +119,8 @@ body{
     filter: blur(20px);
 }
 .sobre {
-    position: absolute;
+    margin-left: 44%;
+    position: fixed;
     border: none;
     color: #ffffff;
     width: 9em;
