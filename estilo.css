@@ -187,8 +187,8 @@ body{
         max-width: 300px;
     }
 }
-@media (max-width: 500px) {
-    }
+    @media (max-width: 500px) {
+    
     body {
         overflow-x: hidden;
     }
@@ -225,7 +225,7 @@ body{
     .cardtwo2{
         margin-top: 15px;
     }
-}
+    }
 .skills{
     width: 100%;
     max-width: 50%;
