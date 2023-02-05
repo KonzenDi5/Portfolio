@@ -188,9 +188,11 @@ body{
     }
 }
 @media (max-width: 500px) {
+    html{
+        overflow-y: hidden;
+    }
     body {
         overflow-x: hidden;
-        overflow-y: hidden;
     }
     
     .eu{
