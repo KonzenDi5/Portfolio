@@ -196,7 +196,7 @@ body{
     }
     .midlle{
        flex-direction: column;
-       margin-top: 50px;
+       margin-top: 100px;
     }
     .div-transform{
         flex-direction: column;
@@ -209,7 +209,6 @@ body{
     }
     .card3d{
         margin-left: 50px;
-        margin-top: 230px;
     }
     .sobre{
         font-size: 10px;
