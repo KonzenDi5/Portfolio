@@ -1,7 +1,6 @@
 html{
     height: 100%;
     width: 100%;
-    overflow-x: hidden;
 }
 body{
     display: flex;
@@ -28,6 +27,7 @@ body{
     transition-duration: 0.5s;
     opacity: 0;
     animation: revelar 3s both;
+    overflow: auto
 }
 .logo{
     display:flex;
