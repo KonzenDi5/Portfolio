@@ -192,7 +192,7 @@ body{
         overflow-x: hidden;
     }
     .eu{
-        margin-left: 50px;
+        margin-left: 46px;
     }
     .midlle{
        flex-direction: column;
@@ -212,7 +212,7 @@ body{
     }
     .sobre{
         font-size: 10px;
-        margin-left: 60px;
+        margin-left: 100px;
     }
     .footer{
         width: 100%;
