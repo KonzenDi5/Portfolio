@@ -64,7 +64,7 @@ body {
   background-color: #5701015e;
   border-radius: 50px;
   padding-left: 10px;
-  margin-left: 850px;
+  margin-left: 38%;
 }
 .sobre {
   color: #ffffff;
@@ -322,7 +322,7 @@ body {
 }
 @media (max-width: 1900px) {
   .sobre{
-
+    
   }
 }
 .skills {
