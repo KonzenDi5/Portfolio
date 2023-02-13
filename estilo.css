@@ -263,7 +263,7 @@ body {
 }
 @media (max-height: 700px) {
   .certificacoes {
-    margin-right: 5px;
+    margin-right: 3px;
   }
   body {
     overflow-x: hidden;
@@ -285,7 +285,7 @@ body {
 }
 @media (max-width: 500px) {
   .certificacoes {
-    margin-right: 5px;
+    margin-right: 3px;
   }
   body {
     overflow-x: hidden;
