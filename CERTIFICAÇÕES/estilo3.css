@@ -213,6 +213,11 @@
     transform: scale(1.5);
   }
   @media (max-width: 500px) {
+    .certificacoes{
+        height: 200px;
+        margin-top: 25px;
+
+    }
     .container{
         max-width: 300px;
         height: 900px;
