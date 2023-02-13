@@ -281,16 +281,8 @@ body {
   }
 }
 @media (max-width: 500px) {
-  .certificacoes {
-    width: 7em;
-  height: 2em;
-  font-size: 10px;
-  }
-  .projetos {
-    width: 7em;
-  height: 2em;
-  font-size: 10px;
-  }
+
+  
   body {
     overflow-x: hidden;
   }
