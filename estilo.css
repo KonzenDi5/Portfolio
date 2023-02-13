@@ -320,11 +320,6 @@ body {
     margin-top: 15px;
   }
 }
-@media (max-width: 1900px) {
-  .sobre{
-    
-  }
-}
 .skills {
   width: 100%;
   max-width: 50%;
