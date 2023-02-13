@@ -282,7 +282,12 @@ body {
 }
 @media (max-width: 500px) {
 
-  
+  .rodape{
+    position: relative;
+    margin-top: 200px;
+    margin-right: 150px;
+    margin-bottom: 0;
+}
   body {
     overflow-x: hidden;
   }
@@ -309,10 +314,6 @@ body {
   .sobre {
     font-size: 10px;
     margin-left: 155px;
-  }
-  .footer {
-    height: 50px;
-    width: 100%;
   }
   .cardtwo2 {
     margin-top: 15px;
@@ -609,4 +610,94 @@ nav ul li a:hover {
     opacity: 0;
     border-radius: 50%;
   }
+}
+.rodape{
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+  .git {
+    position: relative;
+    border: none;
+    font-size: 15px;
+    color: #ffffff;
+    width: 10em;
+    height: 4em;
+    line-height: 2em;
+    text-align: center;
+    background: linear-gradient(90deg, #ff0000, #ff0000, #ff833b, #ff0000);
+    background-size: 300%;
+    border-radius: 30px;
+    text-transform: uppercase;
+    cursor: pointer;
+    z-index: 1;
+  }
+  .git:hover {
+    animation: animation 8s linear infinite;
+    border: none;
+  }
+  @keyframes animation {
+    0% {
+      background-position: 0%;
+    }
+    100% {
+      background-position: 400%;
+    }
+  }
+  .git:before {
+    top: -5px;
+    left: -5px;
+    right: -5px;
+    bottom: -5px;
+    z-index: -1;
+    background: linear-gradient(90deg, #ff0000, #ff0000, #ff7300, #fffb00);
+    background-size: 400%;
+    border-radius: 35px;
+    transition: 1s;
+  }
+  .git:hover::before {
+    filter: blur(20px);
+}
+.linkedin {
+  position: relative;
+  border: none;
+  font-size: 15px;
+  color: #ffffff;
+  width: 10em;
+  height: 4em;
+  line-height: 2em;
+  text-align: center;
+  background: linear-gradient(90deg, #ff0000, #ff0000, #ff833b, #ff0000);
+  background-size: 300%;
+  border-radius: 30px;
+  text-transform: uppercase;
+  cursor: pointer;
+  z-index: 1;
+}
+.linkedin:hover {
+  animation: animation 8s linear infinite;
+  border: none;
+}
+@keyframes animation {
+  0% {
+    background-position: 0%;
+  }
+  100% {
+    background-position: 400%;
+  }
+}
+.linkedin:before {
+  top: -5px;
+  left: -5px;
+  right: -5px;
+  bottom: -5px;
+  z-index: -1;
+  background: linear-gradient(90deg, #ff0000, #ff0000, #ff7300, #fffb00);
+  background-size: 400%;
+  border-radius: 35px;
+  transition: 1s;
+}
+.linkedin:hover::before {
+  filter: blur(20px);
 }
