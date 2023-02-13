@@ -213,6 +213,9 @@
     transform: scale(1.5);
   }
   @media (max-width: 500px) {
+    body {
+      overflow-x: hidden;
+    }
     .certificacoes{
         height: 200px;
         margin-top: 50px;

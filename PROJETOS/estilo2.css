@@ -251,6 +251,9 @@ body{
   margin-top: 20px;
 }
 @media (max-width: 500px) {
+  body {
+    overflow-x: hidden;
+  }
   .projetos{
     margin-top: 75px;
     margin-right: 15px;
