@@ -64,7 +64,7 @@ body {
   background-color: #5701015e;
   border-radius: 50px;
   padding-left: 10px;
-  margin-left: 38%;
+  margin-left: 850px;
 }
 .sobre {
   color: #ffffff;
@@ -318,6 +318,11 @@ body {
   }
   .cardtwo2 {
     margin-top: 15px;
+  }
+}
+@media (max-width: 1900px) {
+  .sobre{
+
   }
 }
 .skills {
