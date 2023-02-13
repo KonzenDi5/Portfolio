@@ -15,11 +15,10 @@ body{
       rgba(255, 0, 0, 1) 0%,
       rgb(160, 7, 7) 100%
     );
- overflow: hidden;
+ overflow-x: hidden;
 }
 
 .circles {
-  position: absolute;
   top: 0;
   left: 0;
   width: 100%;
@@ -130,8 +129,9 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
   flex-direction: column;
-  max-height: 900px;
+  max-height: 1000px;
 }
 .cabecalho{
     margin-top: -10px;
@@ -140,9 +140,21 @@ body{
     height: 200px;
     rotate: 0.5deg;
 }
+.projetosFotos{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 550px;
+  width: 700px;
+  padding: 50px;
+  background-color: rgba(0, 0, 0, 0.342);
+  border-radius: 100px;
+}
 .project1{
   transition: all 0.5s;
   cursor: pointer;
+  height: 200px;
 }
 
 .project1:hover{
@@ -152,6 +164,7 @@ body{
 .project2{
   transition: all 0.5s;
   cursor: pointer;
+  height: 200px;
 }
 
 .project2:hover{
@@ -161,6 +174,7 @@ body{
 .project3{
   transition: all 0.5s;
   cursor: pointer;
+  height: 200px;
 }
 
 .project3:hover{
@@ -170,6 +184,7 @@ body{
 .project4{
   transition: all 0.5s;
   cursor: pointer;
+  height: 200px;
 }
 
 .project4:hover{
@@ -179,11 +194,54 @@ body{
 .project5{
   transition: all 0.5s;
   cursor: pointer;
+  height: 200px;
 }
 
 .project5:hover{
   -webkit-transform: scale(1.5);
   transform: scale(1.5);
+}
+.voltar {
+  position: relative;
+  border: none;
+  font-size: 15px;
+  color: #ffffff;
+  width: 10em;
+  height: 4em;
+  line-height: 2em;
+  text-align: center;
+  background: linear-gradient(90deg, #ff0000, #ff0000, #ff833b, #ff0000);
+  background-size: 300%;
+  border-radius: 30px;
+  text-transform: uppercase;
+  cursor: pointer;
+  z-index: 1;
+}
+.voltar:hover {
+  animation: animation 8s linear infinite;
+  border: none;
+}
+@keyframes animation {
+  0% {
+    background-position: 0%;
+  }
+  100% {
+    background-position: 400%;
+  }
+}
+.voltar:before {
+  top: -5px;
+  left: -5px;
+  right: -5px;
+  bottom: -5px;
+  z-index: -1;
+  background: linear-gradient(90deg, #ff0000, #ff0000, #ff7300, #fffb00);
+  background-size: 400%;
+  border-radius: 35px;
+  transition: 1s;
+}
+.voltar:hover::before {
+  filter: blur(20px);
 }
 
 
