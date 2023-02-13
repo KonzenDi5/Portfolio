@@ -243,5 +243,57 @@ body{
 .voltar:hover::before {
   filter: blur(20px);
 }
+.rodape{
+  width: 100px;
+  height: 100px;
+  padding: 10px;
+  display: flex;
+  margin-top: 20px;
+}
+@media (max-width: 500px) {
+  .projetos{
+    margin-top: 75px;
+    margin-right: 15px;
+  }
+  .projetosFotos{
+  padding: 50px;
+    max-width: 200px;
+    height: 700px;
+    border-radius: 10px;
+  }
+  .primeiraLinha{
+    display: flex;
+    flex-direction: column;
+  }
+  .segundaLinha{
+    display: flex;
+    flex-direction: column;
+  }
+  .terceiraLinha{
+    display: flex;
+    flex-direction: column;
+  }
+  .project1{
+    height: 150px;
+  }
+  .project2{
+    height: 150px;
+  }
+  .project3{
+    height: 150px;
+  }
+  .project4{
+    height: 150px;
+  }
+  .project5{
+    height: 150px;
+  }
+  .rodape{
+    margin-top: 100px;
+    margin-left: -50px;
+  }
+  
+}
+
 
 
