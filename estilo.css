@@ -293,6 +293,7 @@ body {
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  margin-left: 10px;
 }
   body {
     overflow-x: hidden;
