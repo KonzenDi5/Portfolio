@@ -1,10 +1,14 @@
 
-var container = document.querySelector(".eu");
+let isHidden = true;
 
 function revealMe(){
-    
-  if(container.style.height == 0) {
-      container.style.height = "600px";
-  }
-else {container.style.height = 0
-}}
+var container = document.querySelector(".eu");
+
+if(isHidden) {
+container.style.height = "700px";
+isHidden = false;
+} else {
+container.style.height = 0
+isHidden = true;
+}
+}

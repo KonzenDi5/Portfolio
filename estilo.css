@@ -58,7 +58,7 @@ body{
     align-items: center;
     justify-content: center;
     max-width: 300px;
-    max-height: 600px;
+    max-height: 900px;
     flex-direction: column;
     height: 0;
     transition: 1s ease;
@@ -91,6 +91,7 @@ body{
 
 .foto{
     height: 150px;
+    margin-top: 20px;
 }
 .sobre:hover {
     animation: animation 8s linear infinite;
@@ -161,6 +162,100 @@ body{
     transition: 1s;
 }
 .sobre:hover::before {
+    filter: blur(20px);
+}
+.certificacoes-e-projetos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height:700px;
+    flex-direction: row;
+
+}
+.projetos{
+    margin-left: 8%;
+    margin-top: 20px;
+    border: none;
+    color: #ffffff;
+    width: 9em;
+    height: 3em;
+    line-height: 2em;
+    text-align: center;
+    background: linear-gradient(90deg, #ff0000, #ff0000, #ff833b, #f4c803);
+    background-size: 300%;
+    border-radius: 30px;
+    text-transform: uppercase;
+    cursor: pointer;
+    z-index: 1;
+}
+.projetos:hover {
+    animation: animation 8s linear infinite;
+    border: none;
+}
+@keyframes animation {
+    0% {
+        background-position: 0%;
+   }
+    100% {
+        background-position: 400%;
+   }
+}
+.projetos:before {
+    content: "";
+    top: -5px;
+    left: -5px;
+    right: -5px;
+    bottom: -5px;
+    z-index: -1;
+    background: linear-gradient(90deg, #ff0000, #ff0000, #ff7300, #fffb00);
+    background-size: 400%;
+    border-radius: 35px;
+    transition: 1s;
+}
+.projetos:hover::before {
+    filter: blur(20px);
+}
+.certificacoes{
+    border: none;
+    color: #ffffff;
+    width: 9em;
+    height: 3em;
+    line-height: 2em;
+    text-align: center;
+    background: linear-gradient(90deg, #ff0000, #ff0000, #ff833b, #f4c803);
+    background-size: 300%;
+    border-radius: 30px;
+    text-transform: uppercase;
+    cursor: pointer;
+    z-index: 1;
+
+}
+.certificacoes:hover {
+    animation: animation 8s linear infinite;
+    border: none;
+}
+@keyframes animation {
+    0% {
+        background-position: 0%;
+   }
+    100% {
+        background-position: 400%;
+   }
+}
+.certificacoes:before {
+    content: "";
+    top: -5px;
+    left: -5px;
+    right: -5px;
+    bottom: -5px;
+    z-index: -1;
+    background: linear-gradient(90deg, #ff0000, #ff0000, #ff7300, #fffb00);
+    background-size: 400%;
+    border-radius: 35px;
+    transition: 1s;
+}
+.certificacoes:hover::before {
     filter: blur(20px);
 }
 .midlle{
