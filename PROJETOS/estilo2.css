@@ -131,10 +131,12 @@ body{
   align-items: center;
   position: relative;
   flex-direction: column;
-  max-height: 1000px;
+  max-height: 100%
 }
 .cabecalho{
-    margin-top: -10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .projetos{
     height: 200px;
@@ -145,7 +147,7 @@ body{
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  height: 550px;
+  height: 100%;
   width: 700px;
   padding: 50px;
   background-color: rgba(0, 0, 0, 0.342);
@@ -196,11 +198,49 @@ body{
   cursor: pointer;
   height: 200px;
 }
+.project6{
+  transition: all 0.5s;
+  cursor: pointer;
+  height: 200px;
+}
+.project7{
+  transition: all 0.5s;
+  cursor: pointer;
+  height: 200px;
+}
+.project8{
+  transition: all 0.5s;
+  cursor: pointer;
+  height: 200px;
+}
+.project9{
+  transition: all 0.5s;
+  cursor: pointer;
+  height: 200px;
+}
+
 
 .project5:hover{
   -webkit-transform: scale(1.5);
   transform: scale(1.5);
 }
+.project6:hover{
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
+}
+.project7:hover{
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
+}
+.project8:hover{
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
+}
+.project:hover{
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
+}
+
 .voltar {
   position: relative;
   border: none;
@@ -276,6 +316,14 @@ body{
     display: flex;
     flex-direction: column;
   }
+  .quartaLinha{
+    display: flex;
+    flex-direction: column;
+  }
+  .quintaLinha{
+    display: flex;
+    flex-direction: column;
+  }
   .project1{
     height: 150px;
   }
@@ -289,6 +337,18 @@ body{
     height: 150px;
   }
   .project5{
+    height: 150px;
+  }
+  .project6{
+    height: 150px;
+  }
+  .project7{
+    height: 150px;
+  }
+  .project8{
+    height: 150px;
+  }
+  .project9{
     height: 150px;
   }
   .rodape{

@@ -50,13 +50,21 @@ body {
     opacity: 1;
   }
 }
+.botaoInterno{
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
 
 .eu {
   overflow: hidden;
   display: flex;
   align-items: center;
   justify-content: center;
-  max-width: 500px;
+  max-width: 400px;
   max-height: 800px;
   flex-direction: column;
   height: 0;
@@ -76,11 +84,11 @@ body {
   border-radius: 30px;
   text-transform: uppercase;
   cursor: pointer;
-  z-index: 1;
+
   position: relative;
   cursor: pointer;
   outline: none;
-  border: 0;
+
   text-decoration: none;
   background: transparent;
   padding: 0;
@@ -91,6 +99,13 @@ body {
 .foto {
   height: 150px;
   margin-top: 20px;
+}
+.btnHiden{
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+  align-items: center;
+  justify-content: center;
 }
 .sobre:hover {
   animation: animation 8s linear infinite;
@@ -120,7 +135,6 @@ body {
   filter: blur(20px);
 }
 .sobre {
-  margin-left: 48%;
   position: fixed;
   border: none;
   color: #ffffff;
@@ -172,7 +186,7 @@ body {
   flex-direction: row;
 }
 .projetos {
-  margin-left: 8%;
+  
   margin-top: 20px;
   border: none;
   color: #ffffff;
@@ -321,7 +335,7 @@ body {
   }
   .sobre {
     font-size: 10px;
-    margin-left: 155px;
+   
   }
   .cardtwo2 {
     margin-top: 15px;
