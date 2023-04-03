@@ -135,7 +135,7 @@ body {
   filter: blur(20px);
 }
 .sobre {
-  position: fixed;
+  
   border: none;
   color: #ffffff;
   width: 9em;
@@ -314,8 +314,8 @@ body {
   }
 
   .eu {
-    margin-left: 46px;
-    max-width: 500px;
+    
+    max-width: 300px;
   }
   .midlle {
     flex-direction: column;
