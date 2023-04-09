@@ -300,8 +300,8 @@ body{
   }
   .projetosFotos{
   padding: 50px;
-    max-width: 200px;
-    height: 700px;
+    max-width: 100px;
+    height: 100%;
     border-radius: 10px;
   }
   .primeiraLinha{
