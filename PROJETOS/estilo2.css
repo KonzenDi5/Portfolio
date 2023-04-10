@@ -218,6 +218,12 @@ body{
   cursor: pointer;
   height: 200px;
 }
+.project10{
+  transition: all 0.5s;
+  cursor: pointer;
+  height: 200px;
+}
+
 
 
 .project5:hover{
@@ -237,6 +243,10 @@ body{
   transform: scale(1.5);
 }
 .project9:hover{
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
+}
+.project10:hover{
   -webkit-transform: scale(1.5);
   transform: scale(1.5);
 }
@@ -300,7 +310,7 @@ body{
   }
   .projetosFotos{
   padding: 50px;
-    max-width: 20PX;
+    max-width: 300px;
     height: 100%;
     border-radius: 10px;
   }
@@ -325,31 +335,34 @@ body{
     flex-direction: column;
   }
   .project1{
-    height: 150px;
+    height: 50px;
   }
   .project2{
-    height: 150px;
+    height: 50px;
   }
   .project3{
-    height: 150px;
+    height: 50px;
   }
   .project4{
-    height: 150px;
+    height: 50px;
   }
   .project5{
-    height: 150px;
+    height: 50px;
   }
   .project6{
-    height: 150px;
+    height: 50px;
   }
   .project7{
-    height: 150px;
+    height: 50px;
   }
   .project8{
-    height: 150px;
+    height: 50px;
   }
   .project9{
-    height: 150px;
+    height: 50px;
+  }
+  .project10{
+    height: 50px;
   }
   .rodape{
     margin-top: 100px;
