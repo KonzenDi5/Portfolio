@@ -310,59 +310,59 @@ body{
   }
   .projetosFotos{
   padding: 50px;
-    max-width: 300px;
+    max-width: 400px;
     height: 100%;
     border-radius: 10px;
   }
   .primeiraLinha{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
   }
   .segundaLinha{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
   }
   .terceiraLinha{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
   }
   .quartaLinha{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
   }
   .quintaLinha{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
   }
   .project1{
-    height: 50px;
+    height: 100px;
   }
   .project2{
-    height: 50px;
+    height: 100px;
   }
   .project3{
-    height: 50px;
+    height: 100px;
   }
   .project4{
-    height: 50px;
+    height: 100px;
   }
   .project5{
-    height: 50px;
+    height: 100px;
   }
   .project6{
-    height: 50px;
+    height: 100px;
   }
   .project7{
-    height: 50px;
+    height: 100px;
   }
   .project8{
-    height: 50px;
+    height: 100px;
   }
   .project9{
-    height: 50px;
+    height: 100px;
   }
   .project10{
-    height: 50px;
+    height: 100px;
   }
   .rodape{
     margin-top: 100px;
