@@ -318,23 +318,23 @@ body{
   }
   .primeiraLinha{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
   }
   .segundaLinha{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
   }
   .terceiraLinha{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
   }
   .quartaLinha{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
   }
   .quintaLinha{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
   }
   .project1{
     height: 100px;
