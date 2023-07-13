@@ -305,8 +305,10 @@ body{
     overflow-x: hidden;
   }
   .projetos{
-    margin-top: 390px;
-    margin-right: 15px;
+    display: flex;
+    margin-top: 0;
+    justify-content: center;
+    align-items: center;
   }
   .projetosFotos{
   padding: 50px;
