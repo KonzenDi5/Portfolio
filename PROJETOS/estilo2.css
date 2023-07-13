@@ -300,7 +300,7 @@ body{
   display: flex;
   margin-top: 20px;
 }
-@media (max-width: 500px) {
+@media (max-width: 700px) {
   body {
     overflow-x: hidden;
   }
