@@ -441,6 +441,22 @@ body {
   letter-spacing: 4px;
   margin-top: 48px;
 }
+.card-react{
+  width: 250px;
+  height: 100px;
+  background-size: cover;
+  transform: scale(1.02);
+  margin-right: 40px;
+  margin-bottom: 1rem;
+  font-size: 10px;
+}
+.card-react:hover {
+  transform: scale(1.11);
+  box-shadow: -7px 4px 28px -3px #ff0000;
+}
+.card-react::before {
+  background: linear-gradient(90deg, #ff0000 0%, #5a0202 100%);
+}
 .card-1 {
   width: 250px;
   height: 100px;
