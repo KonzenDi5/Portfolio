@@ -1,24 +1,24 @@
 * {
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
   font-family: "Montserrat", sans-serif;
 }
 
-
-body{
-    width: 100vw;
-    height: 100vw;
-    background: rgb(255, 0, 0);
-    background: linear-gradient(
-      180deg,
-      rgb(143, 143, 143) 0%,
-      rgba(255, 0, 0, 1) 0%,
-      rgb(160, 7, 7) 100%
-    );
- overflow-x: hidden;
+body {
+  width: 100%;
+  height: 100vh;
+  background: rgb(255, 0, 0);
+  background: linear-gradient(
+    180deg,
+    rgb(143, 143, 143) 0%,
+    rgba(255, 0, 0, 1) 0%,
+    rgb(160, 7, 7) 100%
+  );
+  overflow-x: hidden;
 }
 
 .circles {
+  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
@@ -125,134 +125,55 @@ body{
     border-radius: 50%;
   }
 }
-.container{
+
+.container {
   display: flex;
   justify-content: center;
   align-items: center;
-  position: relative;
   flex-direction: column;
-  max-height: 100%
-}
-.cabecalho{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100px;
-}
-.projetos{
-    height: 100px;
-    rotate: 0.5deg;
-}
-.projetosFotos{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  padding: 50px;
-  background-color: rgba(0, 0, 0, 0.342);
-  border-radius: 100px;
-}
-.project1{
-  transition: all 0.5s;
-  cursor: pointer;
-  height: 100px;
+  height: 100vh;
+  max-width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
 }
 
-.project1:hover{
-  -webkit-transform: scale(1.5);
-  transform: scale(1.5);
-}
-.project2{
-  transition: all 0.5s;
-  cursor: pointer;
-  height: 100px;
-}
-
-.project2:hover{
-  -webkit-transform: scale(1.5);
-  transform: scale(1.5);
-}
-.project3{
-  transition: all 0.5s;
-  cursor: pointer;
-  height: 100px;
-}
-
-.project3:hover{
-  -webkit-transform: scale(1.5);
-  transform: scale(1.5);
-}
-.project4{
-  transition: all 0.5s;
-  cursor: pointer;
-  height: 100px;
-}
-
-.project4:hover{
-  -webkit-transform: scale(1.5);
-  transform: scale(1.5);
-}
-.project5{
-  transition: all 0.5s;
-  cursor: pointer;
-  height: 100px;
-}
-.project6{
-  transition: all 0.5s;
-  cursor: pointer;
-  height: 100px;
-}
-.project7{
-  transition: all 0.5s;
-  cursor: pointer;
-  height: 100px;
-}
-.project8{
-  transition: all 0.5s;
-  cursor: pointer;
-  height: 100px;
-}
-.project9{
-  transition: all 0.5s;
-  cursor: pointer;
-  height: 100px;
-}
-.project10{
-  transition: all 0.5s;
-  cursor: pointer;
-  height: 100px;
+.cabecalho {
   width: 100px;
 }
 
+.projetos {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
 
+.projetosFotos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.342);
+  border-radius: 50%;
+  margin: 10px;
+  width: 150px;
+  height: 150px;
+}
 
-.project5:hover{
-  -webkit-transform: scale(1.5);
-  transform: scale(1.5);
+.project {
+  transition: all 0.5s;
+  cursor: pointer;
+  height: 100px;
 }
-.project6:hover{
-  -webkit-transform: scale(1.5);
-  transform: scale(1.5);
-}
-.project7:hover{
-  -webkit-transform: scale(1.5);
-  transform: scale(1.5);
-}
-.project8:hover{
-  -webkit-transform: scale(1.5);
-  transform: scale(1.5);
-}
-.project9:hover{
-  -webkit-transform: scale(1.5);
-  transform: scale(1.5);
-}
-.project10:hover{
-  -webkit-transform: scale(1.5);
+
+.project:hover {
   transform: scale(1.5);
 }
 
 .voltar {
-  position: relative;
+  margin-top: 20px;
   border: none;
   font-size: 15px;
   color: #ffffff;
@@ -267,10 +188,11 @@ body{
   cursor: pointer;
   z-index: 1;
 }
+
 .voltar:hover {
   animation: animation 8s linear infinite;
-  border: none;
 }
+
 @keyframes animation {
   0% {
     background-position: 0%;
@@ -279,6 +201,7 @@ body{
     background-position: 400%;
   }
 }
+
 .voltar:before {
   top: -5px;
   left: -5px;
@@ -290,83 +213,30 @@ body{
   border-radius: 35px;
   transition: 1s;
 }
+
 .voltar:hover::before {
   filter: blur(20px);
 }
-.rodape{
+
+.rodape {
   width: 100px;
   height: 100px;
   padding: 10px;
   display: flex;
   margin-top: 20px;
 }
-@media (max-width: 500px) {
-  body {
-    overflow-x: hidden;
-  }
-  .projetos{
-    display: flex;
-    margin-top: 0;
-    justify-content: center;
-    align-items: center;
-  }
-  .projetosFotos{
-  padding: 50px;
-    max-width: 230px;
-    height: 100%;
-    border-radius: 10px;
-  }
-  .primeiraLinha{
-    display: flex;
-    flex-direction: row;
-  }
-  .segundaLinha{
-    display: flex;
-    flex-direction: row;
-  }
-  .terceiraLinha{
-    display: flex;
-    flex-direction: row;
-  }
-  .quartaLinha{
-    display: flex;
-    flex-direction: row;
-  }
-  .quintaLinha{
-    display: flex;
-    flex-direction: row;
-  }
-  .project1{
-    height: 100px;
-  }
-  .project2{
-    height: 100px;
-  }
-  .project3{
-    height: 100px;
-  }
-  .project4{
-    height: 100px;
-  }
-  .project5{
-    height: 100px;
-  }
-  .project6{
-    height: 100px;
-  }
-  .project7{
-    height: 100px;
-  }
-  .project8{
-    height: 100px;
-  }
-  .project9{
-    height: 100px;
-  }
-  .project10{
-    height: 100px;
-  }
- 
-  
-}
 
+@media (max-width: 500px) {
+  .circles {
+    display: none;
+  }
+
+  .projetosFotos {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .voltar {
+    width: 8em;
+  }
+}
