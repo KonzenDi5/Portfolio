@@ -300,7 +300,7 @@ body{
   display: flex;
   margin-top: 20px;
 }
-@media (max-width: 700px) {
+@media (max-width: 500px) {
   body {
     overflow-x: hidden;
   }
@@ -318,23 +318,23 @@ body{
   }
   .primeiraLinha{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
   }
   .segundaLinha{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
   }
   .terceiraLinha{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
   }
   .quartaLinha{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
   }
   .quintaLinha{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
   }
   .project1{
     height: 100px;
