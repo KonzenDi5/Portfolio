@@ -137,9 +137,10 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 100px;
 }
 .projetos{
-    height: 200px;
+    height: 100px;
     rotate: 0.5deg;
 }
 .projetosFotos{
@@ -148,7 +149,6 @@ body{
   justify-content: center;
   flex-direction: column;
   height: 100%;
-  width: 700px;
   padding: 50px;
   background-color: rgba(0, 0, 0, 0.342);
   border-radius: 100px;
@@ -156,7 +156,7 @@ body{
 .project1{
   transition: all 0.5s;
   cursor: pointer;
-  height: 200px;
+  height: 100px;
 }
 
 .project1:hover{
@@ -166,7 +166,7 @@ body{
 .project2{
   transition: all 0.5s;
   cursor: pointer;
-  height: 200px;
+  height: 100px;
 }
 
 .project2:hover{
@@ -176,7 +176,7 @@ body{
 .project3{
   transition: all 0.5s;
   cursor: pointer;
-  height: 200px;
+  height: 100px;
 }
 
 .project3:hover{
@@ -186,7 +186,7 @@ body{
 .project4{
   transition: all 0.5s;
   cursor: pointer;
-  height: 200px;
+  height: 100px;
 }
 
 .project4:hover{
@@ -196,32 +196,33 @@ body{
 .project5{
   transition: all 0.5s;
   cursor: pointer;
-  height: 200px;
+  height: 100px;
 }
 .project6{
   transition: all 0.5s;
   cursor: pointer;
-  height: 200px;
+  height: 100px;
 }
 .project7{
   transition: all 0.5s;
   cursor: pointer;
-  height: 200px;
+  height: 100px;
 }
 .project8{
   transition: all 0.5s;
   cursor: pointer;
-  height: 200px;
+  height: 100px;
 }
 .project9{
   transition: all 0.5s;
   cursor: pointer;
-  height: 200px;
+  height: 100px;
 }
 .project10{
   transition: all 0.5s;
   cursor: pointer;
-  height: 200px;
+  height: 100px;
+  width: 100px;
 }
 
 
